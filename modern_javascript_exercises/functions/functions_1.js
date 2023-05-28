@@ -25,7 +25,11 @@ people.forEach(performLogPerson);
 // Arrow Functions in a Variable
 // Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
 
-// Your code here
+const arrowVersionOfLogPerson = (person) => {
+	console.log('The person is ' + person);
+};
+
+people.forEach(arrowVersionOfLogPerson);
 
 // Anonymous Arrow Functions
 // Replace logPerson below with an Anonymous Arrow Function that does the same thing!
