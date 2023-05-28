@@ -1,11 +1,4 @@
 // Instructions can be found in rest_parameters.md
 
-export const add = (...numbers) => {
-	let sum = 0;
+export const add = (...numbers) => numbers.reduce((sum, number) => sum + number, 0);
 
-	numbers.forEach((number) => {
-		sum += number;
-	});
-
-	return sum;
-};
