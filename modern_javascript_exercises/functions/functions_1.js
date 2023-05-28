@@ -20,7 +20,7 @@ const performLogPerson = function (person) {
 	console.log('The person is ' + person);
 };
 
-people.forEach(logPerson);
+people.forEach(performLogPerson);
 
 // Arrow Functions in a Variable
 // Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
